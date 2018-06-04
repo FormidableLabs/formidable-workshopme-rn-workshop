@@ -3,17 +3,15 @@ import {
   StyleSheet,
   Text,
   View,
-  TextInput,
-  Switch,
-  Picker,
-  Slider,
+  Animated,
+  LayoutAnimation,
 } from 'react-native';
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Lesson 5!</Text>
+        <Text style={styles.welcome}>Welcome to Lesson 6!</Text>
       </View>
     );
   }

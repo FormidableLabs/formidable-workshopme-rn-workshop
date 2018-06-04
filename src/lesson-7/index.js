@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  TextInput,
-  Switch,
-  Picker,
-  Slider,
-} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import MapView from 'react-native-maps';
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Lesson 5!</Text>
+        <Text style={styles.welcome}>Welcome to Lesson 7!</Text>
       </View>
     );
   }
