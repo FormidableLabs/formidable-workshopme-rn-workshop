@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 
-import Lesson from './lesson-5/solution';
+import Lesson from './lesson-1';
 
 console.ignoredYellowBox = ['Warning: isMounted'];
 
